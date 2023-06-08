@@ -84,7 +84,7 @@
             {
                  for(var i=1;i<=10;i++)
                  {
-                    var eleme=parseInt(num)*i ;
+                    var eleme=parseFloat(num)*parseFloat(i) ;
                     console.log(eleme);
                     document.getElementsByClassName("table")[0].innerHTML+="<br/>"
                     document.getElementsByClassName("table")[0].innerHTML+= num +" * "+ i +" = " + (eleme); 
